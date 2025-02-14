@@ -1,8 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Btn from '../components/Btn.astro';
-import Hero from '../components/Hero.astro';
-import Experience from '../components/Experience.astro';
+import Btn from '../components/sections/Btn.astro';
+import Hero from '../components/sections/Hero.astro';
+import Experience from '../components/sections/Experience.astro';
+import Eduaction from '../components/sections/Eduaction.astro';
+import Projects from '../components/sections/Projects.astro';
+import About from '../components/sections/About.astro';
+import Skills from '@/components/sections/Skills.astro';
 
 
 ---
@@ -10,11 +14,20 @@ import Experience from '../components/Experience.astro';
 <Layout title="Welcome to Astro.">
 	<main>
 		<Hero/>
+		<About/>
 		<Experience/>
+		<Projects/>
+
+		<Skills/>
+		<Eduaction/>
 	</main>
 </Layout>
 
 
 <style>
-	
+main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
 </style>

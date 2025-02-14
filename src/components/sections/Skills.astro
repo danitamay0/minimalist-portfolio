@@ -1,0 +1,80 @@
+---
+import Section from "../Section.astro";
+import HTML from "../../icons/Html.astro";
+import Angular from "../../icons/Angular.astro";
+import CSS from "../../icons/Css.astro";
+import Django from "../../icons/Django.astro";
+import Flask from "../../icons/Flask.astro";
+import GitHub from "../../icons/Github.astro";
+
+import JavaScript from "../../icons/Javascript.astro";
+import Php from "../../icons/Php.astro";
+import Postgres from "../../icons/Postgres.astro";
+import TypeScript from "../../icons/Typescript.astro";
+import Python from "../../icons/Python.astro";
+import React from "../../icons/React.astro";
+
+/* import MySQL from "../../icons/Postgres.astro"; */
+import Git from "../../icons/Git.astro";
+
+import Tailwind from "../../icons/Tailwind.astro";
+import Redux from "../../icons/Redux.astro";
+
+import { skills } from "../../../cv.json";
+
+
+const SKILLS_ICONS: Record<string, any> = {
+    Angular,
+    Python,
+    HTML,
+    CSS,
+    Django,
+    Flask,
+    JavaScript,
+    Redux,
+    TypeScript,
+    React,
+    Php,
+    Postgres,
+    Git,
+    GitHub,
+    Tailwind,
+};
+---
+
+<Section title="Habilidades">
+    <ul>
+        {
+            skills.map(({ name }) => {
+                const iconName = name === "Next.js" ? "Next" : name;
+                const Icon = SKILLS_ICONS[iconName];
+
+                return (
+                    <li>
+                        {Icon && <Icon />} <span>{name}</span>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    li {
+        align-items: center;
+        background: #eee;
+        border-radius: 6px;
+        color: black;
+        display: flex;
+        font-size: 0.8rem;
+        font-weight: 500;
+        gap: 4px;
+        padding: 0.2rem 0.6rem;
+    }
+</style>

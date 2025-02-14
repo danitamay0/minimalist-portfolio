@@ -1,110 +1,291 @@
 {
-    "basics": {
-      "name": "John Dan",
-      "label": "Programmer",
-      "image": "",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
-      "location": {
-        "address": "2712 Broadway St", 
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
-      },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+  "basics": {
+    "name": "Daniel Cardona Tamayo",
+    "label": "Full Stack Developer con más de 5 años de experiencia ",
+    "image": "me.jpeg",
+    "email": "miduga@gmail.com",
+    "phone": "+34 688888888",
+    "url": "https://midu.dev",
+    "summary": "+5  años de experiencia como Desarrollador Web, trabajando en diversos entornos y sectores económicos. He participado en desarrollos de productos para destacadas empresas del país y he liderado equipos de desarrollo, demostrando habilidades técnicas y de liderazgo.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Cúcuta Norte de santander",
+      "countryCode": "CO",
+      "region": "Colombia"
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+    "profiles": [{
+      "network": "X",
+      "username": "tamayodev",
+      "url": "https://x.com/tamayodev"
+    },
+    {
+      "network": "Linkedin",
+      "username": "tamayodev",
+      "url": "https://www.linkedin.com/in/carlos-daniel-cardona-0a6032178/"
+    },
+    {
+      "network": "Github",
+      "username": "danitamay0",
+      "url": "https://github.com/danitamay0"
+    }
+  ]
+  },
+  "work": [
+    {
+      "name": "Tekus S.A.S",
+      "position": "Desarrollador de software",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "summary": "Desarrollador FrontEnd implementando arquitecturas modernas, Desarrollamos el sistema de diseño propio de la empresa, fomenté y particié en la elaboración de librerias propias usando de npm y storybook. Mejorando el tiempo del desarrollo de los nuevos Kioskos.",
       "highlights": [
-        "Started the company"
+        "Crear Kioskos autopago para empresas como el éxito y cafam",
+        "Desarrollar Designe System para el área de kioskos"
       ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
+    },
+    {
+      "name": "Tangelo Latam",
+      "position": "Lead Frontend",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2021-06-01",
+      "endDate": "2022-09-01",
+      "summary": "Desarrollador y líder FrontEnd,  impulsando arquitecturas Micro Front, Utilizando Angular y React, patrones de diseño redux. Desarrollamos una plataforma para la cobranza de la cartera, velando por la entrega de productos de calidad y buenas prácticas  ",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Crear mircro aplicaciones a la medida para las áreas de cobranza y crédito.",
+        "Desarrollar librerias que se compartan entre las apps, autenticación SSO.",
+        "Desarrollé una aplicación realtime con python, sockets y change stream en mongodb. "
       ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
+    },
+    {
+      "name": "Corvus Lab",
+      "position": "Full Stack Developer",
+      "startDate": "2019-03-01",
+      "endDate": "2021-05-01",
+      "summary": "Lideré Equipos de desarrollo de software, fomentando calidad de las entregas, desarrollamos un ERP para el sector salud, teniendo integración con el sisteme MIPRES del estado.",
+      "highlights": [
+        "Crear módulos contables y de RRHH",
+        "Desarrollar integraciones con resoluciones de facturación/nómina electrónica",
+        "Participar en la elaboración de control de acceso con reconocimiento facial",
+        "Desarrollamos un modelo inventario y bodega inteligente"
       ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Web Development",
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Universitat Oberta de Catalunya",
+    "url": "https://www.uoc.edu/portal/es/index.html",
+    "area": "Ingeniero de Software",
+    "studyType": "Bachelor",
+    "startDate": "2003-01-01",
+    "endDate": "2009-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Desarrollo Web", "Frontend"
       ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
       ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Flask",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+     {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Php",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Redux",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+   
+    {
+      "name": "Postgres",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+   
+    
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "Face Recognition",
+      "isActive": true,
+      "description": "Administrador de rostros con modelo de entrenamiento de machine learning - Api de reconocimiento facial",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Django",
+        "Machine Learnig",
+        "Side proyect",
+        "sklearn"
       ],
-      "url": "https://project.com/"
-    }]
-  }
+      "url": "https://github.com/danitamay0/face-recognition",
+      "github": "https://github.com/danitamay0/face-recognition"
+
+    },
+    {
+      "name": "Kiosko Cocina de mercado",
+      "isActive": true,
+      "description": "Desarrollo de kioskos auto pago e informativos para grupo éxito",
+      "highlights": [
+        "+500 Kioskos activos",
+        "Angular & TypeScript",
+        "Tekus.Co"
+      ],
+      "url": "https://www.linkedin.com/posts/tekus_somostekus-publicidadtekus-digitalsignage-activity-7130942161084166146-FCXk?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "name": "Kiosko Cafam",
+      "isActive": true,
+      "description": "Desarrollo de Kiosko de auto pago a la medida para tiendas cafam",
+      "highlights": [
+        "+2000 usuarios activos",
+        "Angular & TypeScript",
+        "Tekus.co"
+      ],
+      "url": "https://www.linkedin.com/posts/activity-7143992428436340737-kgTV?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "name": "Welli",
+      "isActive": true,
+      "description": "Plataforma para solicudes de créditos en tiempo real. Proceso -5 minutos",
+      "highlights": [
+        "+10k usuarios al mes",
+        "Django", "Flask", "React",
+        "Baituz"
+        
+      ],
+      "url": "https://welli.com.co"
+    }
+
+  ]
+}
