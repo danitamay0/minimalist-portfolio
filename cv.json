@@ -239,19 +239,18 @@
   }],
   "projects": [
     {
-      "name": "Face Recognition",
+      "name": "Welli",
       "isActive": true,
-      "description": "Administrador de rostros con modelo de entrenamiento de machine learning - Api de reconocimiento facial",
+      "description": "Plataforma para solicudes de créditos en tiempo real. Proceso -5 minutos",
       "highlights": [
-        "Django",
-        "Machine Learnig",
-        "Side proyect",
-        "sklearn"
+        "+10k usuarios al mes",
+        "Django", "Flask", "React",
+        "Baituz"
+        
       ],
-      "url": "https://github.com/danitamay0/face-recognition",
-      "github": "https://github.com/danitamay0/face-recognition"
-
+      "url": "https://welli.com.co"
     },
+  
     {
       "name": "Kiosko Cocina de mercado",
       "isActive": true,
@@ -275,17 +274,18 @@
       "url": "https://www.linkedin.com/posts/activity-7143992428436340737-kgTV?utm_source=share&utm_medium=member_desktop"
     },
     {
-      "name": "Welli",
+      "name": "Face Recognition",
       "isActive": true,
-      "description": "Plataforma para solicudes de créditos en tiempo real. Proceso -5 minutos",
+      "description": "Administrador de rostros con modelo de entrenamiento de machine learning - Api de reconocimiento facial",
       "highlights": [
-        "+10k usuarios al mes",
-        "Django", "Flask", "React",
-        "Baituz"
-        
+        "Django",
+        "Machine Learnig",
+        "Side proyect",
+        "sklearn"
       ],
-      "url": "https://welli.com.co"
-    }
+      "url": "https://github.com/danitamay0/face-recognition",
+      "github": "https://github.com/danitamay0/face-recognition"
 
+    }
   ]
 }
