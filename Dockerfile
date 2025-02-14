@@ -1,20 +1,21 @@
-# Usa una imagen base de Node.js
+# Use the Node alpine official image
+# https://hub.docker.com/_/node
 FROM node:lts-alpine
 
-# Configurar el directorio de trabajo
+# Create and change to the app directory.
 WORKDIR /app
 
-# Copiar archivos de la aplicación
+# Copy the files to the container image
+COPY package*.json ./
+
+# Install packages
+RUN npm ci
+
+# Copy local code to the container image.
 COPY . ./
 
-# Instalar dependencias y construir la aplicación
-RUN npm ci && npm run build
+# Build the app.
+RUN npm run build
 
-# Instalar un servidor estático ligero
-RUN npm install -g http-server
-
-# Exponer el puerto para Railway
-EXPOSE 8080
-
-# Iniciar el servidor para servir la carpeta dist/
-CMD ["http-server", "dist", "-p", "8080"]
+# Serve the app
+CMD ["npm", "run", "start"]
